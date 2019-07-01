@@ -1,0 +1,13 @@
+#fibonacci series
+
+def fs():
+	series = [0, 1]
+	i = 0
+	while i <=10:
+		series.append(series[-1]+series[-2])
+		i +=1
+	return series
+
+ser = fs()
+print(ser)
+
