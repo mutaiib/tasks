@@ -10,4 +10,3 @@ def fs():
 
 ser = fs()
 print(ser)
-
